@@ -1,0 +1,231 @@
+html{
+	background-color: #AED6F1   /*blue*/
+	/*background-color: #F7DC6F */  /*yellow*/
+	/*background-color: #F1948A */ /*salmon*/
+/*Just me trying out different background colours :)*/
+}
+
+
+h1 { font-size: 60px; 			/*To design the first heading*/
+
+	width: 50%;
+	margin: auto;
+	text-align: center;
+  	font-family: 'Concert One', cursive;
+  	text-shadow: 1px 1px 1px white;
+  	/*"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
+  	
+  	border-style: ridge;
+  	border-width: 5px;
+  	border-color: #34495E;
+  }
+
+
+
+.sec11{display: inline-block;	/*To design the video section*/
+	float: left;
+	width: 50%;
+	min-width: 550px;
+		border-style: ridge;
+		padding: 0;
+		margin-left: 40px;
+		margin-top: 30px;
+		margin-bottom: 70px;
+	  	border-width: 5px;
+	  	border-color: #34495E;
+
+
+}
+
+.sec12 {float: left;			/*To design the topic section*/
+  	margin-top: 90px;
+	margin-left: 200px;
+	width: 20%;
+
+}
+
+.top {text-align: center;		/*To design the heading for the topic tiles*/
+	margin-bottom: 10%;
+	font-size: 25px; 
+	font-family: "Lucida Console", Courier, monospace;
+
+}
+
+
+.topic {font-size: 20px; 		/*To design the 3 topic tiles*/
+		font-family: "Lucida Console", Courier, monospace;
+
+		min-width: 150px;
+
+		text-align: center;
+		border-style: ridge;
+		padding: 10px;
+		margin-bottom: 5%;
+		background-color: #33b5e5;
+	  	border-width: 3px;
+	  	border-color: #34495E;
+	  }
+
+.topic:hover {					/* adding a little animation to the links using CSS  */
+  opacity: 0.5;
+}
+
+
+
+
+
+.sec2 {clear: both;				/*To design the second section*/
+		text-align: center;
+		border-style: solid;
+		border-width: 2px;
+		border-color: black;
+		margin-bottom: 50px;
+}
+
+
+.thop {text-align: center;		/*To design the heading for the shopping tiles*/
+	padding-top: 0;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	font-size: 30px; 
+	font-family: "Lucida Console", Courier, monospace;
+	text-decoration: underline;
+
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+
+.caption{
+		font-size: 30px; 
+		font-family: "Lucida Console", Courier, monospace;
+
+}
+
+
+.shop { margin-left: 2.5%;		/*To design the shopping tiles*/
+		margin-right: 2.5%;
+		margin-bottom: 10px;
+		border-style: solid;
+		border-width: 5px;
+		border-color: black;
+
+		width: 250px;
+		height: 250px;
+
+}
+
+.shop:hover {					/* adding a little animation to the links using CSS  */
+  opacity: 0.5;
+}
+
+
+.sec3{ margin-top: 50px; 
+	text-align: center;
+	
+
+}
+
+.crew {text-align: center;		/*To design the heading for the shopping tiles*/
+	padding-top: 0;
+	margin-top: 10px;
+	margin-bottom: 100px;
+	font-size: 40px; 
+	font-family: "Lucida Console", Courier, monospace;
+	text-decoration: underline;
+
+}
+
+
+.block{text-align: center;
+		clear: both;
+}
+
+.picL{	margin-left: 5%;		/*To design the image tiles for LEFT*/
+		margin-right: 5%;
+		margin-bottom: 100px;
+		border-style: solid;
+		border-width: 5px;
+		border-color: black;
+
+		float: left;
+
+		width: 400px;
+		height: 400px;
+
+}
+
+.picL:hover {					/* adding a little animation to the images using CSS  */
+  opacity: 0.5;
+}
+
+
+.bioR{ padding-top: 100px;		/*To design the text tiles for RIGHT*/
+	margin-left: 35%;
+	margin-bottom: 50px;		
+	width: 60%;
+	font-size: 20px; 		
+	font-family: "Lucida Console", Courier, monospace;
+	text-align: center;
+	
+
+}
+
+
+.picR{	margin-left: 5%;		/*To design the image tiles for RIGHT*/
+		margin-right: 5%;
+		margin-bottom: 100px;
+		border-style: solid;
+		border-width: 5px;
+		border-color: black;
+
+		float: right;
+
+		width: 400px;
+		height: 400px;
+
+}
+
+
+.picR:hover {					/* adding a little animation to the images using CSS  */
+  opacity: 0.5;
+}
+
+
+.bioL{ padding-top: 100px;		/*To design the text tiles for LEFT*/
+	margin-left: 5%;	
+	margin-right: 30%;		
+	margin-bottom: 50px;
+	width: 60%;
+	font-size: 20px; 		
+	font-family: "Lucida Console", Courier, monospace;
+	text-align: center;
+
+
+}
+
+
+
+.copyright{						/*To add a generic copyright footer (or you'd think so)*/
+	clear: both;
+	background-color: #1F618D;
+	font-size: 10px; 		
+	font-family: "Lucida Console", Courier, monospace;
+	color: black;
+	text-align: center;
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+
+.darth{color: white;				/*To highlight the Darth Plageuis link*/
+
+}
+
+.rick{text-decoration: none;		/*To disguise the "million bucks" link ;)*/
+	color: black;
+}
